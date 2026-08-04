@@ -1,10 +1,10 @@
 site_name: Scripts Service
-docs_dir: docs
+docs_dir: .
 plugins:
   - techdocs-core
 
 nav:
-  - Home: index.md
+  - Home: docs/index.md
   - Onboarding:
     - Setup Dev Environment: onboarding/setup-dev-env.md
     - Create Namespace: onboarding/create-namespace.md
