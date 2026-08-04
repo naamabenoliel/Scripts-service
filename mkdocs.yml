@@ -1,0 +1,20 @@
+site_name: Scripts Service
+docs_dir: docs
+plugins:
+  - techdocs-core
+
+nav:
+  - Home: index.md
+  - Onboarding:
+    - Setup Dev Environment: onboarding/setup-dev-env.md
+    - Create Namespace: onboarding/create-namespace.md
+  - CI:
+    - Docker Build: ci/docker-build.md
+    - Run Migrations: ci/run-migrations.md
+  - Ops:
+    - Health Check: ops/health-check.md
+    - Collect Diagnostics: ops/collect-diagnostics.md
+    - Rotate Secrets: ops/rotate-secrets.md
+  - Utils:
+    - Cost Report: utils/cost-report.md
+    - Stale Resources: utils/stale-resources.md
